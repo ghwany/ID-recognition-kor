@@ -4,9 +4,9 @@
 
 # 시작하기
 TesseractOCR을 사용하기 위해 프레임워크를 설치합니다. [TesseractOCR](https://github.com/gali8/Tesseract-OCR-iOS/blob/master/README.md)에서 자세한 내용이 있습니다.
-```
-pod install
-```
+
+터미널로 PodFile이 존재하는 폴더로 이동한 후 ```pod install``` 하면 됩니다.
+
 한국어를 인식하기 위해 [tessdata](https://github.com/tesseract-ocr/tessdata)가 필요한데 **한국어는 현재 8월 29일기준 TesseractOCR 4.0버전에서 tessdata 3.0.4버전만 지원합니다.**
 
 위 프로젝트에는 tessdata폴더에 kor.traineddata가 있습니다.
